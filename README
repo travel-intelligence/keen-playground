@@ -6,3 +6,9 @@ Keen project: https://keen.io/project/554546fc90e4bd2ea1ebe6e3
 
 Getting started with cURL: https://keen.io/docs/getting-started-guide/
 
+WRITE_KEY=Xxx
+READ_KEY=Yyy
+./submit_event.sh $WRITE_KEY
+./count_events.sh $READ_KEY
+./average_on_events.sh $READ_KEY
+
